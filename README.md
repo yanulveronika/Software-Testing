@@ -1,2 +1,2 @@
-# Softwate-Testing
+# Software-Testing
 Laboratory work
