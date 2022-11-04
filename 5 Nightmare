@@ -1,0 +1,93 @@
+1.I CAN WIN 
+ssh-keygen -trsa -C "yanul20009@mail.ru"
+
+y
+12345
+cd C:Users/Dell/.ssh
+"C:/Users/Dell/.ssh/id_rsa.pub"
+cd "d:/Лабораторные/Тестирование/1"
+git clone git@github.com:yanulvero/Software-Testing.git
+cd "Software-Testing1-2"
+git config --global user.name "Veronika Yanul"
+git config --global user.email "yanul20009@mail.ru"
+echo "sword and spear
+ wall of shields" > song.txt
+git add .
+git status
+git commit -m "add first two lines in the song"
+git push
+echo "standing strong
+on this their chosen battlefield" > song.txt
+git add .
+git status
+git commit -m "add two more lines to the song"
+git push
+git pull
+--"d:/Лабораторные/Тестирование/1/Software-Testing/song.txt"
+
+
+2.BRING IT ON
+cd "d:/Лабораторные/Тестирование/1/Software-Testing"
+echo "*.db
+*.log
+/target
+/bin" > .gitignore
+git add .
+git commit -m "commit ignore file"
+git push
+git checkout -b feature
+copy con "d:/Лабораторные/Тестирование/1/Software-Testing/album.txt"
+git add .
+git commit -m "create album.txt"
+copy con "d:/Лабораторные/Тестирование/1/Software-Testing/proof.txt"
+git add .
+git commit -m "create proof.txt"
+git checkout main
+git push origin feature
+git merge feature
+
+
+
+git checkout feature
+cd "d:/Лабораторные/Тестирование/1/Software-Testing"
+echo "The ship glides gently on the waves
+As day turns into night" > arrows.txt
+git add .
+git commit -m "arrows.txt feature"
+git checkout main
+cd "d:/Лабораторные/Тестирование/1/Software-Testing"
+echo "One thousand burning arrows
+Fill the starlit sky" > arrows.txt
+git add .
+git commit -m "arrows.txt main"
+git merge feature
+echo "The ship glides gently on the waves
+As day turns into night
+One thousand burning arrows
+Fill the starlit sky" > arrows.txt
+git status
+git add .
+git commit -m "branch main and feature merge. One arrows.txt version"
+git push
+git checkout feature
+
+
+3.HURT ME PLENTY
+
+git checkout -b storm
+echo "Twenty ships with Norsemen braves
+Riding the northern wind"> storm.txt
+git add .
+git commit -m "Commit storm.txt1_0"
+echo "They left their shores at early dawn
+As a red sun was rising in the east"> storm.txt
+git add .
+git commit -m "Commit storm.txt2_0"
+git checkout main
+echo "The warming sun returns again
+And melts away the snow
+The sea is freed from icy chains
+Winter is letting go"> pursuit.txt
+git add .
+git commit -m "Commit pursuit.txt"
+git tag session1
